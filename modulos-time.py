@@ -9,6 +9,6 @@ if day != 'Sunday' or day != 'Saturday':
         print("Ya es hora de ir a casa")
     else:
         resto = round(abs(hour - 19),2)
-        print("Faltan",resto,"hs para ir a casa")
+        print(f'Faltan {resto} hs para ir a casa')
 else:
     print("En este día no trabajas")
